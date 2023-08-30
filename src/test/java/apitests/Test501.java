@@ -18,6 +18,8 @@ public class Test501
 		Response res=req.get();
 		//display whole response
 		res.then().log().all();
+		//display out out
+		System.out.println("happy ending");
 	}
 
 }
